@@ -1,0 +1,43 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="{% static 'css/list.css' %}" rel="stylesheet">
+</head>
+<body>
+    <h1>Información de Laboratorios</h1>
+    <section>
+        <a href="/laboratorio/laboratorio/create">Crear</a>
+    </section>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Ciudad</th>
+                <th>País</th>
+                <th>Edit</th>
+                <th>Delete</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            {% for l in lab %}
+            <tr>
+                <td>{{ l.nombre }}</td>
+                <td>{{ l.ciudad }}</td>
+                <td>{{ l.pais }}</td>
+                <td><a href="/laboratorio/laboratorio/{{ l.id }}/edit">Actualizar</a></td>
+                <td><a href="/laboratorio/laboratorio/{{ l.id }}/delete">Eliminar</a></td>
+            </tr>
+            {% endfor %}
+
+        </tbody>
+    </table>
+    <div style="text-align: center;">
+        <img src="{% static 'css/images/R.jpg' %}" style="max-width: 100%; height: auto;">
+    </div>
+</body>
+
+</html>
+

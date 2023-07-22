@@ -1,0 +1,33 @@
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+
+    th, td {
+        padding: 10px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+
+    /* Estilos para el botón */
+    .btn {
+        display: block;
+        width: 100px;
+        margin: 20px auto;
+        padding: 10px;
+        background-color: #774caf;
+        color: white;
+        border: none;
+        cursor: pointer;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .btn:hover {
+        background-color: #45a049;
+    }
