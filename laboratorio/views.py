@@ -40,7 +40,16 @@ def v_laboratorio_edit(request, laboratorio_id):
 
 def v_laboratorio_list(request):
     
-    context = {'lab': Laboratorio.objects.all()}
+    context = {
+        'nvisitas': 0,
+        'lab': Laboratorio.objects.all()
+    }
+
+    nvisits = request.session.get('num_visits', 0) #consulta 
+    request.session['num_visits'] = nvisits + 1 #guarda la variable de sesion
+    context['nvisitas'] = nvisits + 1 #muestra la info en html
+
+
     return render (request, 'laboratorio_list.html', context)
     
     
