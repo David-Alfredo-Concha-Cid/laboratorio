@@ -20,7 +20,7 @@ Este proyecto es parte del curso "Desarrollo de Aplicaciones Full Stack Python T
 - Clonar el proyecto en su ordenador
 - Ejecutar en el simbolo del sistema el comando python manage.py runserver
 - Entrar el sitio web y visitar el sitio
-- Si desea tambien púede ingresar al siguiente link para su visualización: https://laboratorio-three.vercel.
+- Si desea tambien púede ingresar al siguiente link de vercel para su visualización: https://laboratorio-three.vercel.
 
 
 ## Descripción
@@ -29,7 +29,7 @@ El proyecto consiste en el desarrollo de un sistema de gestión y registro de la
 
 ## Objetivos
 
-- Este es un bosquejo en django para cualquier desarrollador  para administrar los productos de laboratorio
+- El objetivo de este proyecto es proporcionar a los desarrolladores un bosquejo en Django que les permita administrar de manera eficiente los productos de laboratorio. Con esta herramienta, podrán gestionar y mantener actualizada la información de los laboratorios de una manera sencilla y efectiva. Además, el sistema ofrecerá la funcionalidad de eliminar registros incorrectos o no pertinentes, lo que contribuirá a mantener la integridad de la base de datos y garantizar la precisión de la información manejada. Con este enfoque, se busca agilizar y mejorar el proceso de administración de los laboratorios, optimizando el trabajo de los desarrolladores y facilitando la tarea de mantener la información organizada y actualizada en todo momento.
 
 
 ## Requerimientos y otros detalles:
